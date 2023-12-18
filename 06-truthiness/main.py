@@ -1,3 +1,9 @@
+# if ["hello",12]:
+#     print(True)
+# else:
+#     print(False)
+
+
 one_less_than_three = 1 < 3 
 true_equals_false = True == False
 
@@ -32,17 +38,19 @@ s = get_string()
 # else:
 #     print("")
     
-first_string = s and s[0]
+# first_string = s and s[0]
 
 safe_x = x or 0
 
+# x = 2
+
 safe_x = x if x is not None else 0
+
 
 # print(first_string)
 
 # print(safe_x)
 
 print(all([True, 1, {3}]))
-print(all([True, 1, {1}]))
-print(all([]))
-print(any([]))
+print(any([False, 0, {}]))
+# print(all([]))
